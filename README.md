@@ -30,4 +30,4 @@ EOF
 
 ## License
 
-Eclipse Public License v1.0, see LICENSE file.
+Mozilla Public License 2.0, see LICENSE file.

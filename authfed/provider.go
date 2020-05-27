@@ -23,6 +23,7 @@ func Provider() terraform.ResourceProvider {
 
 		ResourcesMap: map[string]*schema.Resource{
 			"authfed_http_object": resourceHttpObject(),
+			"authfed_http_secret": resourceHttpSecret(),
 		},
 
 		ConfigureFunc: providerConfigure,
